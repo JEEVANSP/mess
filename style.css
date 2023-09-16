@@ -298,21 +298,24 @@ nav img {
 @media all and (max-width:1000px){
     nav img {
         padding-top: 5px;
-         height: 100px;
-         width: 100px;
+         height: 80px;
+         width: 80px;
         
      }
      .navbar a{
         font-size: 1em;
-        margin-left: 20px;
+        margin-left: 10px;
      }
 
      nav{
         padding-left: 15px;
         padding-right: 15px;
      }
-    .navbar login-but{
-    width: 80px;
+     #home{
+        display:none;
+     }
+    .navbar .login-but{
+    width: 100px;
     height: 30px;
     background: transparent;
     border: 1px solid #fff;
@@ -322,9 +325,8 @@ nav img {
     color: #fff;
     font-weight: 500;
     font-size: 1.rem;
-    margin-left: 20px;
+    margin-left: 10px;
     transition: .5s;
-       
     }
     
 }
