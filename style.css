@@ -30,8 +30,8 @@ nav{
 }
 nav img {
    padding-top: 5px;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 .navbar a{
     position: relative;
@@ -281,4 +281,49 @@ nav img {
 .registerfirst p a:hover{
     text-decoration: underline;
     color: blue;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    align-items: right;
+    display: none;
+}
+#check{
+    display:none;
+}
+@media all and (max-width:1000px){
+    nav img {
+        padding-top: 5px;
+         height: 100px;
+         width: 100px;
+        
+     }
+     .navbar a{
+        font-size: 1em;
+        margin-left: 20px;
+     }
+
+     nav{
+        padding-left: 15px;
+        padding-right: 15px;
+     }
+    .navbar login-but{
+    width: 80px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.rem;
+    margin-left: 20px;
+    transition: .5s;
+    }
+    
 }
