@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  
     
     <nav>
         <input type="checkbox" id="check">
@@ -16,9 +17,10 @@
         
             <img class="logo" src="./images/newlogo.png" alt=""> 
            <div class="navbar">
-                <a id="home" href="">Home</a>
-                <a href="">About Us</a>
+                <a id="home" href="./index.html">Home</a>
+                <a href="./about.html">About Us</a>
                 <a href="">Contact</a>
+                
 
                 <button class="login-but">Login</button>
                 <!-- <button class="reg-but">Register</button> -->
@@ -26,25 +28,16 @@
     </nav>
 
     
-<!-- <div class="content">
-    <h1>MESS COUNT TRACKER</h1>
-    <br>
 
-    <p>The College Hostel Mess Count Tracking System aims to enhance the overall dining 
-        experience for students, reduce food wastage, and improve the efficiency of mess 
-        operations. By leveraging technology to automate meal tracking and management, 
-        the system simplifies the workload for mess staff and provides students with a 
-        modern and user-friendly tool for accessing and managing their meal preferences.</p>
-        <br>
-    </div> -->
     <div class="wrapper">
         <!-- <span class="closeicon"><ion-icon name="close-circle"></ion-icon></span> -->
-        <span>
-            <button class="closeicon">
-                <ion-icon name="close-circle"></ion-icon>
-            </button>
-        </span>
+       
         <div class="form-box login">
+            <span>
+                <button class="closeicon" >
+                    <ion-icon name="close-circle"></ion-icon>
+                </button>
+            </span>
             <h2>Login</h2>
             <form action="#">
                 <div class="input-box">
@@ -67,10 +60,15 @@
                 <div class="registerfirst">
                     <p>Don't have an account? <a href="#" class="register-link ">Register</a></p>
                 </div>
-
+                    
             </form>
         </div>
         <div class="form-box register">
+             <span>
+            <button class="closeicon2" >
+                <ion-icon name="close-circle"></ion-icon>
+            </button>
+        </span>
             <h2>Register</h2>
             <form action="#">
                 <div class="input-box">
@@ -82,6 +80,25 @@
                     <span class="icon "><ion-icon name="mail"></ion-icon></span>
                     <input type="email" required>
                     <label>Email</label>
+                </div>  
+                <div class="input-box">
+                    <span class="icon "><ion-icon name="mail"></ion-icon></span>
+                    <input type="tel" required>
+                    <label>Phone no</label>
+                </div>  
+                <div class="input-box1">
+                    <form action="">
+                        <p>Please select your category</p>
+                      <input type="radio" id="student" name="category" value="student">
+                      <label for="student">Student</label>
+                     <input type="radio" id="mess" name="category" value="mess">
+                     <label for="mess">mess</label><br>
+                     
+                      
+                        
+                      </form>
+                
+                    <!-- <label>Email</label> -->
                 </div>  
                     <div class="input-box">
                     <span class="icon "><ion-icon name="lock-closed"></ion-icon></span>
